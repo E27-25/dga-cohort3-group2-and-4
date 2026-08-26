@@ -11,6 +11,10 @@ Repository นี้จัดทำขึ้นภายใต้โครงก
 
 เป้าหมายหลักของโปรเจกต์นี้คือการนำข้อมูลเปิดภาครัฐ (Open Data) มาประมวลผล สร้างภาพให้เกิดความเข้าใจง่าย (Data Visualization) และใช้ AI / สถิติขั้นสูง ในการทำนายและสกัดองค์ความรู้ใหม่ๆ
 
+<div align="center">
+  <img src="assets/animation.gif" width="600" alt="JFO Animation">
+</div>
+
 ---
 
 ## 📂 โครงสร้างและเนื้อหาใน Repository
@@ -24,6 +28,9 @@ Repository นี้จัดทำขึ้นภายใต้โครงก
   3. **Time Series:** กราฟเส้นแนวโน้มจำนวนคำขอรายเดือน
   4. **Bar Chart:** จัดอันดับ 15 จังหวัดที่มีคำขอสูงสุด
   5. **Stacked Bar:** สัดส่วนการอนุมัติแยกตามประเภทคำขอ
+
+  <img src="assets/jfo_sample.png" width="500" alt="JFO Bar Chart Sample">
+
 - **🤖 3 ML Models:**
   1. **Random Forest Classifier:** ทำนายผลการพิจารณา (อนุมัติ/ไม่ผ่าน) (Accuracy ~64.4%)
   2. **K-Means Clustering:** จัดกลุ่มจังหวัด 4 กลุ่มตามพฤติกรรมการยื่นคำขอ
@@ -40,6 +47,9 @@ Repository นี้จัดทำขึ้นภายใต้โครงก
   3. **Horizontal Bar:** จัดอันดับจำนวน มอก. ตามหมวดหมู่
   4. **Sunburst:** เจาะลึกความสัมพันธ์จากหน่วยงานสู่หมวดหมู่ผลิตภัณฑ์
   5. **Heatmap:** ตารางความถี่ของหน่วยงานและหมวดหมู่ผลิตภัณฑ์
+
+  <img src="assets/tisi_sample.png" width="500" alt="TISI Sunburst Sample">
+
 - **🤖 3 NLP Models:**
   1. **Text Classification (TF-IDF + Logistic Reg.):** ทำนายหมวดหมู่ผลิตภัณฑ์จากเนื้อหาขอบข่ายภาษาอังกฤษ
   2. **K-Means Text Clustering:** ใช้ AI จัด 6 กลุ่มมาตรฐานใหม่ตามคำศัพท์สำคัญ

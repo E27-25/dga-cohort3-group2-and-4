@@ -36,6 +36,8 @@ Repository นี้จัดทำขึ้นภายใต้โครงก
   2. **K-Means Clustering:** จัดกลุ่มจังหวัด 4 กลุ่มตามพฤติกรรมการยื่นคำขอ
   3. **SARIMA Forecasting:** พยากรณ์จำนวนคำขอล่วงหน้า 12 เดือน
 
+  <img src="assets/ml_jfo_kmeans.gif" width="500" alt="JFO K-Means Animation">
+
 ---
 
 ### 🏭 โฟลเดอร์ `3_4` : มอก. บังคับ (TISI Standards)
@@ -54,6 +56,11 @@ Repository นี้จัดทำขึ้นภายใต้โครงก
   1. **Text Classification (TF-IDF + Logistic Reg.):** ทำนายหมวดหมู่ผลิตภัณฑ์จากเนื้อหาขอบข่ายภาษาอังกฤษ
   2. **K-Means Text Clustering:** ใช้ AI จัด 6 กลุ่มมาตรฐานใหม่ตามคำศัพท์สำคัญ
   3. **NMF Topic Modeling:** สกัดหัวข้อหลัก (Topics) 6 เรื่องที่ซ่อนอยู่ใน มอก.
+
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="assets/ml_tisi_kmeans.gif" width="400" alt="TISI K-Means Text Clustering">
+    <img src="assets/ml_tisi_nmf.gif" width="400" alt="TISI NMF Topic Modeling">
+  </div>
 
 ---
 

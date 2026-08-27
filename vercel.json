@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/jfo", "destination": "/3_2/jfo_viz.html" },
+    { "source": "/tisi", "destination": "/3_4/tisi_viz.html" },
+    { "source": "/", "destination": "/index.html" }
+  ]
+}
